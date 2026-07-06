@@ -22,4 +22,4 @@ global scope k pollution se problem hoti hai to prevent from that we use this
 })("neha")
 
 
-//  2 iife ek sth like hue hai to end m semi colon lgana first wale pr 
+//  2 iife ek sth like hue hai to end m semi colon lgana first wale
