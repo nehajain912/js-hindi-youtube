@@ -49,5 +49,23 @@ const users = [
 // console.log(Object.keys(tinderUser));  
 // console.log(Object.entries(tinderUser));  // array k andr array first key second value
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+//console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+// destructuring objects
+const course={
+    coursename:"javascript",
+    price:"999",
+    courseInstructor:"Mr. choudhary",
   
+   
+}
+
+// console.log(course.price);
+const {courseInstructor:Instructor}=course       // alias name
+//console.log(Instructor);
+
+// const navBar = ({company}) =>
+// {
+
+// }
+// navBar(company="google")
