@@ -29,3 +29,25 @@ const obj3 = {...obj1, ...obj2};
 // console.log(obj3)
 
 // array of objects
+
+const users = [
+    {
+        id : 1,
+        email : "n@gmail.com"
+    },
+    {
+        id : 2,
+        email : "j@gmail.com"
+    },
+]
+
+//console.log(users[1].email)
+// console.log(tinderUser);
+
+// console.log(Object.keys(tinderUser));      // data type array
+// console.log(Object.values(tinderUser));    // array
+// console.log(Object.keys(tinderUser));  
+// console.log(Object.entries(tinderUser));  // array k andr array first key second value
+
+console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+  
