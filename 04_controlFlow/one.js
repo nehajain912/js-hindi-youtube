@@ -128,3 +128,18 @@ const userEmail=[];
 // }
 
 // Nullish Coalescing Operator (??): null undefine
+
+let val1;
+// val1= 5 ?? 10
+// val1= undefined ?? 15
+// val1 = undefined ?? 10 ?? 20        // first value gets assigned after null / undefined 
+val1 = undefined ?? null ?? undefined
+// console.log(val1);
+
+//TERNARY OPERATOR  (short hand for if else)
+
+// condition?true:false
+
+const iceTeaPrice = 100
+iceTeaPrice >= 80?console.log("Greater than 80"):console.log("Less than 80");
+
