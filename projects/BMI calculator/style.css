@@ -1,8 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    padding:0;
+    margin:0;
+    text-align:center;
+    box-sizing: border-box;
+    
+}
 .container{
-    width: 585px;
-    height: 650px;
+    width: 100%;
+    min-height: 100vh;
     background-color:gray;
-    padding-left:30px;
+    
 }
 
 #height,#weight
@@ -15,6 +27,7 @@
 #weight-guide{
     margin-left : 75px;
     margin-top :25px;
+    
 }
 
 #results{
@@ -39,6 +52,11 @@ button{
 }
 
 h1{
-    padding-left: 15px;
+   
     padding-top: 25px;
+}
+
+p{
+    margin-top:10px;
+    
 }
